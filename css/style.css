@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Startitle;
+    src: url(../font/Starjhol.ttf);
+}
+@font-face {
+    font-family: franklinbleu;
+    src: url(../font/FranklinGothicBookRegular.ttf);
+}
+@font-face {
+    font-family: jimmy;
+    src: url(../font/JimmySans.otf);
+}
+@font-face {
+    font-family: jimmybold;
+    src: url(../font/JimmySans_Bld.otf);
+}
+body{
+
+	background-color: black;
+	color:white;
+	position:relative;
+  margin:0;
+}
+#chasepage{
+  font-family:"jimmy";
+}
+h1{
+	margin: 30px 0;
+	text-align: center;
+}
+canvas {
+  display: block;
+  width:auto;
+}
+button{
+	display: inline-block;
+  background-color:rgb(229,177,58);
+	
+}
+button:hover{
+  cursor:pointer;
+  font-family:"jimmybold";
+
+}
+.bouton{
+	display: block;
+	text-align: center;
+}
+#cheval{
+  width: 200px;
+  height: 135px;
+  background: url(../img/cheval.jpg) 0 0;
+  display:block;
+  margin:auto;
+}
+.cheval{
+  margin-bottom: 10px;
+}
+#mickey{
+  width: 134px;
+  height: 150px;
+  background: url(../img/cheval.jpg) -870px -60px;
+  display:block;
+  margin:auto;
+}
+.mickey{
+  margin-bottom: 10px;
+}
+.play, .photo button, video, .photomaton{
+    display:block;
+    margin:auto;
+}
+.play{
+   width: 174px;
+  height: 90px;
+  background-image: url(../img/kidding.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color:white;
+  margin-top: 10px;
+  font-size: 29px;
+  letter-spacing: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.fin{
+  display:inline-block;
+  text-align: center;
+}
+
+.photo{
+  margin:10px;
+
+}
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: rgb(75,213,238);
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: rgb(56,160,256);
+ 
+  text-decoration: none;
+  color: white;
+}
+
+
+/*page yoda */
+#yoda{
+  height: 500px;
+}
+.pretitre p{
+  display:block;
+  margin:auto;
+}
+#franklinbleu{
+  font-family: franklinbleu;
+  color: rgb(75,213,238);
+  font-size:100px;
+  margin:10% 10%;
+  text-align: left;
+}
+   
+#yodatitre{
+  font-family: Startitle;
+  font-weight: bold;
+  font-size:150px;
+  color:rgb(229,177,58);
+  animation-name: shrinkingtitle 2s;
+}
+
+@keyframes shrinkingtitle{
+ 0% { transform: scale(1, 1);}
+ 100% {transform: scale(0.1, 0.1); }
+}
+@-moz-keyframes shrinkingtitle {
+  0% { -moz-transform:translate(100px,100px)  scale(1); }
+  50% { -moz-transform: translate(00px,00px) scale(2); }
+  100% { -moz-transform:translate(100px,100px)  scale(1); }
+}
+#generique{
+  font-family: franklinbleu;
+  font-size: 60px;
+  color: #fcd000;
+  font-weight: bold;
+  width: 1000px;
+  margin: 0 auto;
+  transform: rotateX(30deg);
+  -webkit-animation: generique 21s ease-in;
+  -moz-animation: generique 5s;
+  animation: generique 21s ease-in;
+}
+@-webkit-keyframes generique {
+ 0% { -webkit-transform: rotateX(30deg) translateY(400px); }
+ 100% { -webkit-transform: rotateX(30deg) translateY(-300px); }
+}
+@-moz-keyframes generique {
+ 0% { -moz-transform: rotateX(30deg) translateY(400px); }
+ 100% { -moz-transform: rotateX(30deg) translateY(-300px); }
+}
+@keyframes generique {
+ 0% { transform: rotateX(30deg) translateY(400px); }
+ 100% { transform: rotateX(30deg) translateY(-300px); }
+}
+.selectchrome{
+  margin: 20% auto;
+  color: rgb(75,213,238);
+}
+select{
+  margin: 10px;
+  padding:10px;
+}
+
+option:last-child{
+  margin-bottom: 10px;
+}
+option:hover{
+  cursor:pointer;
+}
+h2{
+  font-family: franklinbleu;
+}
+#entree{
+  display: block;
+  margin: 10% auto;
+  text-align:center;
+  color: rgb(75,213,238);
+  font-family: jimmy;
+  line-height: 20px;
+}
+#entree:hover{
+  text-decoration: none;
+  color: rgb(229,177,58);
+}
+
+#accessausite{
+  font-family: franklinbleu;
+}
+#accesausite:hover{
+  font-family: franklinbleu;
+  font-size:18px;
+}
